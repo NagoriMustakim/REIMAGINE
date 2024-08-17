@@ -3,7 +3,8 @@ import { Image } from 'react-bootstrap'
 import logo from '../assets/logo.svg'
 import './styles.css'
 import { Link } from 'react-router-dom'
-export const Header = () => {
+
+export const Header = ({ isVideo, src }) => {
 
     const [isOpen, setIsOpen] = useState(false);
 
@@ -15,22 +16,38 @@ export const Header = () => {
         window.location.href = '/'
     }
     return (
-        <div className='header-container'>
-            <Link to='/'><Image src={logo} className='header-logo ' /></Link>
+        <>
+            {
+                isVideo ? (
+                    <div className='video-wrapper'>
+                        <video src={src} autoPlay muted loop playsInline></video>
+                    </div>
+                ) :
 
-            <div className={`nav ${isOpen ? 'open' : ''}`}>
-                <Link to='/' className='nav-link'>Product</Link>
-                <Link to='/sponser' className='nav-link'>Sponser</Link>
-                <Link to='/faq' className='nav-link'>FAQ's</Link>
+                    (
+                        src ?
+                            <Image src={src} alt='PressionC-Client' className='image-wrapper' />
+                            : null
+                    )
+            }
+
+            <div className='header-container' style={src ? null : { backgroundColor: '#2b2d28' }}>
+                <Link to='/'><Image src={logo} className='header-logo ' /></Link>
+
+                <div className={`nav ${isOpen ? 'open' : ''}`}>
+                    <Link to='/' className='nav-link'>Product</Link>
+                    <Link to='/sponser' className='nav-link'>Sponser</Link>
+                    <Link to='/faq' className='nav-link'>FAQ's</Link>
+                </div>
+
+                <button className='btn btn-download' onClick={downloadHandler}>Download</button>
+
+                <div className='hamburger-menu' onClick={toggleMenu}>
+                    <div className='bar'></div>
+                    <div className='bar'></div>
+                    <div className='bar'></div>
+                </div>
             </div>
-
-            <button className='btn btn-download' onClick={downloadHandler}>Download</button>
-
-            <div className='hamburger-menu' onClick={toggleMenu}>
-                <div className='bar'></div>
-                <div className='bar'></div>
-                <div className='bar'></div>
-            </div>
-        </div>
+        </>
     )
 }

@@ -10,7 +10,6 @@ function App() {
 
   return (
     <main>
-      <Header />
       <Routes>
         <Route path="/" element={< Home />} />
         <Route path="/sponser" element={<Sponer />} />
