@@ -59,3 +59,34 @@ a {
     height: 740px;
   }
 }
+
+@media (min-width: 1400px) and (max-width: 1500px) {
+  .hero {
+    height: 786px;
+  }
+}
+
+
+@media (min-width: 1500px) and (max-width: 1600px) {
+  .hero {
+    height: 850px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1700px) {
+  .hero {
+    height: 920px;
+  }
+}
+
+@media (min-width: 1700px) and (max-width: 1847px) {
+  .hero {
+    height: 960px;
+  }
+}
+
+@media (min-width: 1848px) and (max-width: 2000px) {
+  .hero {
+    height: 1044px;
+  }
+}
