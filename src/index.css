@@ -51,12 +51,30 @@ a {
   .hero {
     height: 810px;
   }
+
+  .img-text {
+    margin: 36px 10px 0px 10px;
+  }
+
+  .img-s {
+    width: 450px;
+    height: 300px;
+  }
 }
 
 
 @media (min-width: 901px) and (max-width: 1350px) {
   .hero {
     height: 740px;
+  }
+
+  .img-text {
+    margin-top: 50px;
+  }
+
+  .img-s {
+    width: 450px;
+    height: 300px;
   }
 }
 
@@ -71,11 +89,21 @@ a {
   .hero {
     height: 850px;
   }
+
+  .img-text {
+    margin-left: 200px;
+    margin-right: 200px;
+  }
 }
 
 @media (min-width: 1600px) and (max-width: 1700px) {
   .hero {
     height: 920px;
+  }
+
+  .img-text {
+    margin-left: 230px;
+    margin-right: 230px;
   }
 }
 
@@ -83,10 +111,35 @@ a {
   .hero {
     height: 960px;
   }
+
+  .img-text {
+    margin-left: 260px;
+    margin-right: 260px;
+  }
 }
 
 @media (min-width: 1848px) and (max-width: 2000px) {
   .hero {
     height: 1044px;
+  }
+
+  .img-text {
+    margin-left: 330px;
+    margin-right: 330px;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2500px) {
+  .img-text {
+    margin-left: 470px;
+    margin-right: 470px;
+  }
+}
+
+
+@media (min-width: 2500px) and (max-width: 3000px) {
+  .img-text {
+    margin-left: 630px;
+    margin-right: 630px;
   }
 }
