@@ -9,7 +9,6 @@ body {
 
 .btn {
   background-color: #B81DDA;
-  padding: 11px, 24px, 11px, 24px;
   border-radius: 1000px;
   color: #FFFFFF;
   border: none;
@@ -30,7 +29,7 @@ a {
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.container {
+.main-container {
   background-color: #FFFFFF;
 }
 

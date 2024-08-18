@@ -1,6 +1,5 @@
 /* Home Page  */
 
-
 .home-title {
     align-items: center;
     color: white;
@@ -47,7 +46,6 @@
     justify-content: center;
     width: 220px;
     height: 56px;
-    gap: 0px;
     border-radius: 1000px;
     border: 1px solid black;
     background-color: transparent;
@@ -57,6 +55,7 @@
     line-height: 30px;
     gap: 12px;
     cursor: pointer;
+    color: #FFFFFF;
 }
 
 .btn-os-click {
@@ -65,7 +64,7 @@
 }
 
 .quick-install {
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
     width: 725px;
     height: 26px;
     font-size: 14px;
@@ -81,7 +80,7 @@
     justify-content: space-between;
     margin-top: 12px;
     padding: 0px 24px 0px 24px;
-    max-width: 730px;
+    max-width: 765px;
     height: 62px;
     background-color: #B2B2B280;
     border-radius: 20px;
@@ -108,7 +107,10 @@
     font-weight: 500;
     line-height: 26px;
     text-align: center;
-    padding: 11px, 24px, 11px, 24px;
+    padding: 11px 24px 11px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .pression-top {
@@ -206,7 +208,7 @@
 }
 
 .system {
-    margin-top: 86px;
+    margin-top: 32px;
     width: 1170px;
     height: 424px;
     border-radius: 20px 20px 20px 20px;
@@ -222,12 +224,20 @@
     font-size: 32px;
     font-weight: 600;
     line-height: 46px;
+    margin: 40px 0px 0px 0px;
 }
 
 .req {
     width: 970px;
     height: 258px;
-    border: 2px solid red;
+    margin-top: 40px;
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
 }
 
 .req ul {
@@ -241,8 +251,13 @@
 }
 
 .req-desc {
-    width: 670px;
+    width: 500px;
 }
+
+.req-topic {
+    width: 300px;
+}
+
 
 .faq-title {
     margin-top: 86px;
