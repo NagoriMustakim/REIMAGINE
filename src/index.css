@@ -24,6 +24,7 @@ a {
 }
 
 .hero {
+  position: relative;
   height: 742px;
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -52,8 +53,9 @@ a {
   }
 }
 
-@media (min-width: 901px) and (max-width: 3600px) {
+
+@media (min-width: 901px) and (max-width: 1350px) {
   .hero {
-    height: 1013px;
+    height: 740px;
   }
 }
