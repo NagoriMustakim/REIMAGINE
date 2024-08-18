@@ -19,11 +19,13 @@ export const Service = () => {
                         <ol>
                             <li>
                                 <h3>Acceptance of Terms</h3>
-                                <p className="privacy-policy-introduction">
-                                    By using PressionC, a Virtual Meeting Platform For Online
-                                    Conference Video, you agree to comply with these Terms of
-                                    Service.
-                                </p>
+                                <ul>
+                                    <li className="privacy-policy-introduction">
+                                        By using PressionC, a Virtual Meeting Platform For Online
+                                        Conference Video, you agree to comply with these Terms of
+                                        Service.
+                                    </li>
+                                </ul>
                             </li>
                             <li>
                                 <h3>Use of Services</h3>
@@ -53,40 +55,40 @@ export const Service = () => {
                             <li>
                                 <h3>Intellectual Property</h3>
                                 <ul>
-                                    <p className="terms-of-service-introduction">
+                                    <li className="terms-of-service-introduction">
                                         All content and materials available on our website are
                                         protected by intellectual property laws. You may not use our
                                         content without permission.
-                                    </p>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>Limitation of Liability</h3>
                                 <ul>
-                                    <p className="terms-of-service-introduction">
+                                    <li className="terms-of-service-introduction">
                                         We are not liable for any damages or losses resulting from
                                         your use of our services.
-                                    </p>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>Termination</h3>
                                 <ul>
-                                    <p className="terms-of-service-introduction">
+                                    <li className="terms-of-service-introduction">
                                         We reserve the right to terminate or suspend your access to
                                         our services at our discretion, without notice.
-                                    </p>
+                                    </li>
                                 </ul>
                             </li>
                             <li>
                                 <h3>Governing Law</h3>
                                 <ul>
-                                    <p className="terms-of-service-introduction">
+                                    <li className="terms-of-service-introduction">
                                         These Terms of Service shall be governed by and construed in
                                         accordance with the laws of Australia.
-                                    </p>
+                                    </li>
 
-                                    <p
+                                    <li
                                         className="terms-of-service-introduction"
                                         style={{ paddingTop: "30px" }}
                                     >
@@ -95,7 +97,7 @@ export const Service = () => {
                                         recommended to consult with legal professionals to ensure
                                         compliance with relevant laws and regulations in your
                                         jurisdiction
-                                    </p>
+                                    </li>
                                 </ul>
                             </li>
                         </ol>

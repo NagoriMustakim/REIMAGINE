@@ -45,3 +45,17 @@ a {
   height: 366px;
   border-radius: 20px 20px 20px 20px;
 }
+
+
+
+/* @media (max-width: 900px) {
+  .hero {
+    height: 810px;
+  }
+}
+
+@media (min-width: 901px) and (max-width: 3000px) {
+  .hero {
+    height: 813px;
+  }
+} */
