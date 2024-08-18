@@ -100,7 +100,7 @@ export const Home = () => {
             {`Quick install by copy the command for your ${os === "windows" ? "Windows" : os === "mac" ? "MacOS" : "Ubuntu"}, paste it in your ${os === "windows" ? "Command Prompt" : os === "mac" ? "Terminal" : "Terminal"}, and start using pressionC!`}
           </p>
 
-          <div className='copy-cmd' style={os === "windows" ? { marginTop: '36px', height: '80px'} : null}  >
+          <div className='copy-cmd' style={os === "windows" ? { marginTop: '36px', height: '80px' } : null}  >
             <Image src={copyLogo} alt="Copy" />
             <span className='cmd'> {getCommand()}</span>
             <button className='btn btn-copy' onClick={() => {
@@ -179,36 +179,11 @@ export const Home = () => {
         <div className='works-container'>
           <div className='system'>
             <p className='system-title'>System Requirement</p>
-            {/* <div className='req'>
-              <div className='req-li'>
-                <p>Operating System:</p>
-                <p >Windows 10 Anniversary Update or newer;</p>
-              </div>
-              <div className='req-li' style={{ width: '970px', gap: '114px', marginLeft: '35px'}}>
-                <p>Minimum Hardware:</p>
-                <p className='req-desc' style={{ width: '670px' }}>
-                  Intel Core i5 9400 or AMD Ryzen 5 2600 with 8 GB RAM (AVX2 support required);
-                  Intel UHD Graphics 630 (Compatible with DirectX 12);
-                  a physical webcam; screen resolution of 1024x768
-                </p>
-              </div>
-              <div className='req-li'>
-                <p>Recommended Hardware:</p>
-                <p >
-                  Intel Core i5 11400 or AMD Ryzen 5 3600 with 16 GB RAM or Apple M1;
-                  NVIDIA Geforce 1660 or Radeon RX 580
-                </p>
-              </div>
-            </div> */}
-
-
             <div className='req'>
-
-
               <div className='req-topic'>
                 <p>Operating System:</p>
                 <p>Minimum Hardware:</p>
-                <p style={{marginTop: '6.5rem'}}>Recommended Hardware:</p>
+                <p style={{ marginTop: '6.68rem' }}>Recommended Hardware:</p>
               </div>
 
               <div className='req-desc'>

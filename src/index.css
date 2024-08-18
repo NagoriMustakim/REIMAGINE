@@ -24,7 +24,6 @@ a {
 }
 
 .hero {
-  /* height: 901px; */
   height: 742px;
   background-color: rgba(0, 0, 0, 0.7);
 }
@@ -47,15 +46,14 @@ a {
 }
 
 
-
-/* @media (max-width: 900px) {
+@media (max-width: 900px) {
   .hero {
     height: 810px;
   }
 }
 
-@media (min-width: 901px) and (max-width: 3000px) {
+@media (min-width: 901px) and (max-width: 3600px) {
   .hero {
-    height: 813px;
+    height: 1013px;
   }
-} */
+}
