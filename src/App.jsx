@@ -8,8 +8,8 @@ import { Footer } from "./components/Footer"
 import { useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import { useEffect } from "react"
-ReactGA.initialize('G-C5VSGSN5WY')
 function App() {
+  ReactGA.initialize('G-C5VSGSN5WY')
   const location = useLocation();
   useEffect(() => {
     ReactGA.pageview(location.pathname + location.search);
