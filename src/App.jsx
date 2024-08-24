@@ -9,7 +9,7 @@ import { useLocation } from 'react-router-dom';
 import ReactGA from 'react-ga';
 import { useEffect } from "react"
 function App() {
-  ReactGA.initialize('G-C5VSGSN5WY')
+  ReactGA.initialize('G-8CX9ELH4ZY')
   const location = useLocation();
   useEffect(() => {
     ReactGA.pageview(location.pathname + location.search);
